@@ -32,6 +32,42 @@ body {
     padding: 20px;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    margin: 0 5rem 0 5rem;
+    width: 64px;
+    height: auto;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 .hero {
     position: relative;
 }
@@ -66,6 +102,56 @@ body {
     float: right;
 }
 
+.titles {
+    text-align: center;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.history-content p {
+    padding: 0.5rem;
+}
+
+.history-content img {
+    width: 250px;
+}
+
+.adventure-images {
+    display: flex;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .sociallinks {
     display: flex;
     justify-content: space-around;
@@ -74,4 +160,8 @@ body {
 
 .sociallinks a {
     width: 60px;
+}
+
+.sociallinks img {
+    width: 50px;
 }
